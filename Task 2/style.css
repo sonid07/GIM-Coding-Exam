@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------HEAD-------------------------------------------------------- */
+.head {
+    height: 70px;
+    width: 100%;
+
+}
+
+/* ----------------------------------------------LOGO-------------------------------------------------------- */
+.logo {
+    height: inherit;
+    width: 70%;
+    background-color: #606C5D;
+    color: white;
+    float: left;
+    padding-top: 5px;
+    padding-left: 35px;
+    font-size: 45px;
+    font-family: "SUSE", sans-serif;
+}
+
+/* ----------------------------------------------ABOUT-------------------------------------------------------- */
+.about {
+    height: inherit;
+    width: 30%;
+    background-color: #606C5D;
+    float: right;
+}
+
+.about a:link {
+    padding: 45px;
+    padding-top: 30px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------MAIN-------------------------------------------------------- */
+.main {
+    height: 92vh;
+    width: 65%;
+    background-color: #C1D1B5;
+    float: left;
+    padding-top: 10px;
+    font-family: "Gravitas One", serif;
+    font-size: 100px;
+    color: #606C5D;
+    padding-left: 30px;
+}
+
+.main p {
+    font-size: 25px;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    width: 80%;
+}
+
+.main button {
+    height: 50px;
+    width: 150px;
+    background-color: #606C5D;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 17px;
+}
+
+/* ----------------------------------------------MAG-------------------------------------------------------- */
+.mag {
+    height: 92vh;
+    width: 35%;
+    background-color: #606c5dbb;
+    float: right;
+    background-image: url(Screenshot\ 2024-09-12\ 090428.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ----------------------------------------------PAC-------------------------------------------------------- */
+.pac {
+    height: 480px;
+    width: 310px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 200px;
+    left: 1090px;
+    background-image: url(Screenshot\ 2024-09-12\ 091336.png);
+}
